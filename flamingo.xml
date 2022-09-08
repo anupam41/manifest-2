@@ -2,7 +2,7 @@
 <manifest>
 
     <remote name="grapheneos"
-        fetch="ssh://git@github.com/GrapheneOS/"
+        fetch="https://github.com/GrapheneOS/"
         revision="13" />
 
     <!-- ART -->
