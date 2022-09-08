@@ -1,6 +1,6 @@
 <manifest>
     
-    <remote name="github" fetch="ssh://git@github.com/" />
+    <remote name="github" fetch="https://github.com/" />
 
     <remote name="clo_system" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.QSSI.13.0.r1-05400-qssi.0" />
 
@@ -8,11 +8,11 @@
 
     <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-13.0.0_r3" />
 
-    <remote name="flamingo" fetch="ssh://git@github.com/Flamingo-OS/" revision="A13" />
+    <remote name="flamingo" fetch="https://github.com/Flamingo-OS/" revision="A13" />
 
-    <remote name="flamingo-gitlab" fetch="ssh://git@gitlab.com/Flamingo-OS/" revision="A13" />
+    <remote name="flamingo-gitlab" fetch="https://gitlab.com/Flamingo-OS/" revision="A13" />
 
-    <remote name="flamingo-devices" fetch="ssh://git@github.com/FlamingoOS-Devices/" revision="A13" />
+    <remote name="flamingo-devices" fetch="https://github.com/FlamingoOS-Devices/" revision="A13" />
 
     
     <include name="system.xml" />
