@@ -110,9 +110,6 @@
     <remove-project name="platform/packages/apps/Camera2"/>
     <project path="packages/apps/Camera" name="platform_external_Camera" remote="grapheneos" />
 
-    <remove-project name="platform/packages/apps/DocumentsUI"/>
-    <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="flamingo" />
-
     <project path="packages/apps/FlamingoSettings" name="packages_apps_FlamingoSettings" remote="flamingo"/>
     <project path="packages/apps/FlamingoSystemUI" name="packages_apps_FlamingoSystemUI" remote="flamingo"/>
     <project path="packages/apps/GmsCompat" name="platform_packages_apps_GmsCompat" remote="grapheneos" />
@@ -149,9 +146,6 @@
 
     <remove-project name="platform/packages/providers/DownloadProvider" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="flamingo"/>
-
-    <remove-project name="platform/packages/providers/MediaProvider" />
-    <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="flamingo"/>
 
     <remove-project name="platform/packages/services/Telecomm"/>
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flamingo"/>
